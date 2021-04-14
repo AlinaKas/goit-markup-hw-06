@@ -383,7 +383,7 @@
                 <p class="footer-subtitle">Подпишитесь на рассылку</p>
                 <form class="footer-form">
                     <label>
-                        <input type="email" name="mail" placeholder="E-mail" >
+                        <input name="user-mail" type="email" placeholder="E-mail" class="footer-form-input">
                     </label>
                     <button class="footer-btn btn" type="submit">Подписаться
                         <svg class="footer-btn-icon" width="24" height="24">
@@ -391,11 +391,10 @@
                         </svg>
                     </button>
                 </form>
-
-
             </div>
         </div>
     </footer>
+    <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-close-btn" type="button" data-modal-close>
@@ -403,6 +402,25 @@
                     <use href="./images/sprite.svg#icon-close-btn"></use>
                 </svg>
             </button>
+            <form class="contact-form">
+                <p class="contact-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="contact-form-label">Имя
+                    <input name="user-name" type="text" class="contact-form-input">
+                </label>
+                <label class="contact-form-label">Телефон
+                    <input name="user-phone" type="tel" class="contact-form-input">
+                </label>
+                <label class="contact-form-label">Почта
+                    <input name="user-mail" type="email" class="contact-form-input">
+                </label>
+                <label class="contact-form-label">Комментарий
+                    <textarea name="user-comment" class="contact-form-comment" ></textarea>
+                </label>        
+                <div class="contact-form-btn-wraper">  
+                    <button class="contact-form-btn btn" type="submit">Отправить</button>
+                </div>
+
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
