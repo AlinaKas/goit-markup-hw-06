@@ -803,10 +803,6 @@ img {
   transition: border-color var(--duration-animation) var(--timing-function);
 }
 
-.contact-form-input:focus-within {
-  color: var(--accent-font);
-}
-
 .contact-form-input:focus,
 .contact-form-message:focus {
   outline: none;
