@@ -694,7 +694,7 @@ img {
 
 /* ---END PROJECT SET--- */
 
-/* ---Modal elements--- */
+/* ---MODAL WINDOW--- */
 .backdrop {
   position: fixed;
   top: 0;
@@ -895,3 +895,4 @@ img {
 .contact-form-btn:hover {
   background-color: #188ce8;
 }
+/* --END MODAL WINDOW-- */
